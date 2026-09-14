@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Concept redesign for the Town of Randolph, Massachusetts.">
+  <title>Randolph, MA | Community Redesign</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="concept-bar">CONCEPT REDESIGN • NOT AN OFFICIAL TOWN WEBSITE</div>
+
+  <header class="site-header" id="header">
+    <a class="brand" href="#home" aria-label="Randolph home">
+      <span class="seal">R</span>
+      <span><strong>RANDOLPH</strong><small>MASSACHUSETTS</small></span>
+    </a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Open navigation">☰</button>
+
+    <nav id="nav">
+      <a href="#services">Services</a>
+      <a href="#news">News</a>
+      <a href="#meetings">Meetings</a>
+      <a href="#community">Community</a>
+      <a href="https://www.randolph-ma.gov/27/Government" target="_blank">Government</a>
+      <a class="nav-contact" href="https://www.randolph-ma.gov/Directory.aspx" target="_blank">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">WELCOME TO RANDOLPH, MASSACHUSETTS</p>
+        <h1>One town.<br><em>Many stories.</em></h1>
+        <p class="hero-copy">Town services, local updates and community resources — easier to find, faster to use.</p>
+
+        <form class="search" id="siteSearch">
+          <span>⌕</span>
+          <input id="searchInput" type="search" placeholder="What can we help you find?" aria-label="Search town services">
+          <button type="submit">Search</button>
+        </form>
+
+        <div class="popular">
+          <span>Popular:</span>
+          <a href="#services">Pay a bill</a>
+          <a href="#services">Trash & recycling</a>
+          <a href="#services">Property</a>
+        </div>
+      </div>
+
+      <a href="#services" class="scroll">Explore ↓</a>
+    </section>
+
+    <section class="services section" id="services">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow dark">QUICK ACCESS</p>
+          <h2>How can we help?</h2>
+        </div>
+        <p>Skip the menus. Start with the services residents use most.</p>
+      </div>
+
+      <div class="service-grid">
+        <a class="service-card reveal" href="https://www.randolph-ma.gov/331/Online-Payments" target="_blank">
+          <span class="icon">💳</span><span class="number">01</span>
+          <h3>Pay a Bill</h3><p>Taxes, utilities and town payments.</p><b>Open service →</b>
+        </a>
+        <a class="service-card reveal" href="https://www.randolph-ma.gov/154/Building" target="_blank">
+          <span class="icon">▤</span><span class="number">02</span>
+          <h3>Permits</h3><p>Building, inspection and permit resources.</p><b>View permits →</b>
+        </a>
+        <a class="service-card reveal" href="https://www.randolph-ma.gov/163/Assessors" target="_blank">
+          <span class="icon">⌂</span><span class="number">03</span>
+          <h3>Property</h3><p>Assessments and property information.</p><b>Find property →</b>
+        </a>
+        <a class="service-card reveal" href="https://www.randolph-ma.gov/280/Department-of-Public-Works" target="_blank">
+          <span class="icon">♻</span><span class="number">04</span>
+          <h3>Trash & Recycling</h3><p>Collection schedules and DPW information.</p><b>View schedule →</b>
+        </a>
+        <a class="service-card reveal" href="https://www.randolph-ma.gov/Jobs.aspx" target="_blank">
+          <span class="icon">◈</span><span class="number">05</span>
+          <h3>Town Jobs</h3><p>Explore employment with Randolph.</p><b>See openings →</b>
+        </a>
+        <a class="service-card reveal" href="https://www.randolph-ma.gov/AgendaCenter" target="_blank">
+          <span class="icon">◷</span><span class="number">06</span>
+          <h3>Agendas & Minutes</h3><p>Public meetings, agendas and records.</p><b>Browse meetings →</b>
+        </a>
+      </div>
+    </section>
+
+    <section class="feature">
+      <div class="feature-photo"></div>
+      <div class="feature-copy reveal">
+        <p class="eyebrow">YOUR COMMUNITY</p>
+        <h2>Connected to what matters.</h2>
+        <p>From neighborhood services to public meetings, Randolph works best when information is simple and accessible.</p>
+        <a class="light-btn" href="https://www.randolph-ma.gov/" target="_blank">Visit official town website ↗</a>
+      </div>
+    </section>
+
+    <section class="news section" id="news">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow dark">STAY INFORMED</p><h2>Latest from Randolph</h2></div>
+        <a class="text-link" href="https://www.randolph-ma.gov/CivicAlerts.aspx" target="_blank">View all news →</a>
+      </div>
+
+      <div class="news-grid">
+        <article class="news-main reveal">
+          <div class="news-img townhall"></div>
+          <div class="news-body"><span>COMMUNITY UPDATE</span><h3>Town Hall Hours of Operation Changing</h3><p>Get the latest information before planning your visit to Town Hall.</p><a href="https://www.randolph-ma.gov/CivicAlerts.aspx" target="_blank">Read update →</a></div>
+        </article>
+        <div class="news-side">
+          <article class="mini-news reveal"><span>PUBLIC WORKS</span><h3>Trash and Recycling Schedule</h3><p>Collection information for the week of September 7.</p><a href="https://www.randolph-ma.gov/CivicAlerts.aspx" target="_blank">Read more →</a></article>
+          <article class="mini-news reveal"><span>PUBLIC HEALTH</span><h3>West Nile Virus Advisory</h3><p>Regional mosquito testing information and local updates.</p><a href="https://www.randolph-ma.gov/CivicAlerts.aspx" target="_blank">Read more →</a></article>
+          <article class="mini-news reveal"><span>UTILITIES</span><h3>Water Update</h3><p>Current notices and information for Randolph residents.</p><a href="https://www.randolph-ma.gov/CivicAlerts.aspx" target="_blank">Read more →</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="meetings" id="meetings">
+      <div class="meetings-inner section">
+        <div class="section-heading light reveal">
+          <div><p class="eyebrow">PUBLIC CALENDAR</p><h2>Upcoming meetings</h2></div>
+          <a class="light-link" href="https://www.randolph-ma.gov/Calendar.aspx" target="_blank">Full calendar →</a>
+        </div>
+        <div class="event-list">
+          <a class="event reveal" href="https://www.randolph-ma.gov/Calendar.aspx" target="_blank"><div class="date"><b>10</b><span>SEP</span></div><div><small>THURSDAY</small><h3>School Committee — Policy Subcommittee</h3></div><span class="arrow">↗</span></a>
+          <a class="event reveal" href="https://www.randolph-ma.gov/Calendar.aspx" target="_blank"><div class="date"><b>15</b><span>SEP</span></div><div><small>TUESDAY</small><h3>Disabilities Commission</h3></div><span class="arrow">↗</span></a>
+          <a class="event reveal" href="https://www.randolph-ma.gov/Calendar.aspx" target="_blank"><div class="date"><b>16</b><span>SEP</span></div><div><small>WEDNESDAY</small><h3>Randolph Redevelopment Authority</h3></div><span class="arrow">↗</span></a>
+          <a class="event reveal" href="https://www.randolph-ma.gov/Calendar.aspx" target="_blank"><div class="date"><b>17</b><span>SEP</span></div><div><small>THURSDAY</small><h3>Board of Assessors</h3></div><span class="arrow">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="community section" id="community">
+      <div class="community-copy reveal">
+        <p class="eyebrow dark">DISCOVER RANDOLPH</p>
+        <h2>Close to Boston.<br>Rooted in community.</h2>
+        <p>A South Shore community with local neighborhoods, civic spaces and connections throughout Greater Boston.</p>
+        <div class="stats">
+          <div><strong>02368</strong><span>ZIP CODE</span></div>
+          <div><strong>781</strong><span>AREA CODE</span></div>
+          <div><strong>MA</strong><span>NORFOLK COUNTY</span></div>
+        </div>
+      </div>
+      <div class="community-photo reveal"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-main">
+      <div class="footer-brand"><div class="brand"><span class="seal">R</span><span><strong>RANDOLPH</strong><small>MASSACHUSETTS</small></span></div><p>Concept redesign created as a front-end portfolio project. This is not the official Town of Randolph website.</p></div>
+      <div><h4>Town Hall</h4><p>41 South Main Street<br>Randolph, MA 02368<br>781-961-0900</p></div>
+      <div><h4>Explore</h4><a href="#services">Services</a><a href="#news">News</a><a href="#meetings">Meetings</a><a href="https://www.randolph-ma.gov/Directory.aspx" target="_blank">Departments</a></div>
+      <div><h4>Official Site</h4><a href="https://www.randolph-ma.gov/" target="_blank">randolph-ma.gov ↗</a><a href="https://www.randolph-ma.gov/Jobs.aspx" target="_blank">Employment ↗</a><a href="https://www.randolph-ma.gov/Calendar.aspx" target="_blank">Calendar ↗</a></div>
+    </div>
+    <div class="footer-bottom">© 2026 Randolph Website Redesign Concept <span>Designed for portfolio demonstration</span></div>
+  </footer>
+
+  <div class="toast" id="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
